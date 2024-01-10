@@ -1,8 +1,8 @@
-===============================
+================================
 Optimizing Matrix Multiplication
-===============================
+================================
 
- The project revolves around implementing, optimizing, and
+The project revolves around implementing, optimizing, and
 comparing matrix multiplication algorithms. The provided files
 together form a comprehensive project for studying and applying
 concepts related to computer architecture and optimization.
@@ -38,7 +38,7 @@ The chart was made for tests where N = 1200
 Neoptimal:
     Simple implementation of multiplication of two matrices and addition.
 Optimal:
-    For the optimal solution, I used blocked matrix multiplication as an optimization for cache.
+    For the optimal solution, I used blocked matrix multiplication as an optimization for the cache.
 I also took pointers to iterate through my matrix.
 Blas:
     I used the cblas_dgemm function to multiply the matrices. In addition, I did it manually.
@@ -47,7 +47,7 @@ Optimal_f:
     -ffast-math : This option causes the preprocessor macro __FAST_MATH__ to be defined.
         It may, however, yield faster code for programs that do not require the guarantees
         of these specifications. 
-    -floop-unroll-and-jam: Apply unroll and jam transformations on feasible loops.
+    -floop-unroll-and-jam: Apply to unroll and jam transformations on feasible loops.
         In a loop nest, this unrolls the outer loop by some factor and fuses the resulting
         multiple inner loops.
 		
